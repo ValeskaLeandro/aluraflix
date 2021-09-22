@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300&family=Zilla+Slab:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+/*
+  'Zilla Slab', serif;
+  'Poppins', sans-serif;
+*/
+
+body {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 700;
+  text-align: center;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 95vw;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  min-width: 55px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#Filme {
+  display: flex;
+  min-width: 570px;
+  max-width: 85%;
+  margin: 20px auto;
+}
+
+#Filme img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+p#nomeFilme {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  max-width: 220px ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+  max-width: 50%;
+  margin: auto;
+  border-radius: 20px;
+ 
+  
+}
+
+.form-wrapper input {
+  height:25px ;  
+  margin: 15px 5px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+.form-wrapper input:hover {
+  border: red 1.5px solid;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 5px;  
+  margin: 10px auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+a.filme {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  transition: .5s;
+}
+a.filme:hover {
+ color: red;
+ background: rgba(255, 255, 255, 0.6);
+ border-radius: 15px;
+ border: solid 2px red;
+ transform: scale(1.1);
+}
+.footer {
+  color: white;
+
+}
+
+a.footer {
+  text-decoration: none;
+  color: white;  
+  margin-left: 10px;
+  margin-right: 10px;    
+}
+a.footer:hover {
+  transition: .5s;
+  color: red;
+       
+}
+
+
